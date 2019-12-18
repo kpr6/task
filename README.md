@@ -3,8 +3,17 @@ A simple todo task manager cli
 
 ## Usage
 ```
-task add take your dog on a walk
-task list
-task do <id of the task>
-task -h or task --help
+Usage:
+  task [command]
+
+Available Commands:
+  add         Adds a task to your task list
+  do          marks a task as complete
+  help        Help about any command
+  list        list all tasks
+
+Flags:
+  -h, --help   help for task
+
+Use "task [command] --help" for more information about a command.
 ```
